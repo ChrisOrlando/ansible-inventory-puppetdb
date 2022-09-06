@@ -9,5 +9,5 @@ install_if -> { RUBY_PLATFORM =~ /linux/ } do
 end
 
 group :test do
-  gem 'rubocop', '~> 0.42.0', require: false
+  gem 'rubocop', '~> 0.48.1', require: false
 end
